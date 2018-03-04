@@ -1,6 +1,6 @@
 {
   "name": "Manifest_HTTPS_Proxy",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Uses now.sh to serve enterprise deploymeny manifest files over HTTPS",
   "main": "index.js",
   "scripts": {
