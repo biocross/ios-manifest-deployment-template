@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Download Flipkart</title>
+</head>
+
+<body>
+    <a id="downloadLink" href="itms-services://?action=download-manifest&url=http://192.168.0.113:3000/first/manifest.plist">Download App</a>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+		$(document).ready(function() {
+		    var link = document.getElementById("downloadLink");
+		    link.href = "itms-services://?action=download-manifest&url=" + window.location.origin + "/app/manifest.plist";
+		});
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,14 @@
+{
+  "name": "Manifest_HTTPS_Proxy",
+  "version": "1.0.0",
+  "description": "Uses now.sh to serve enterprise deploymeny manifest files over HTTPS",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Siddharth Gupta",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}
